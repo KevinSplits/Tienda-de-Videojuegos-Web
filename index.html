@@ -337,28 +337,94 @@
       <hr class="border border-black border-2 opacity-90">
   </section>
 
-  <section id="preguntas" class="faq-section pt-120">
+  <section id="preguntas" class="faq-section pt-120 pb-120 bg-dark text-light" style="padding-top: 30px; padding-bottom:30px;">
     <div class="container">
-      <center><h2 class="mb-4">Preguntas Frecuentes</h2>
-        <p class="fs-6">Aqui podras resolver tus dudas acerca de nuestra plataforma.</p></center>
-    <div class="accordion" id="faqAccordion">
-      
-      <!-- Pregunta 1 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="faqHeadingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
-            ¿Cómo puedo registrarme en la plataforma?
-          </button>
-        </h2>
-        <div id="faqCollapseOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne" data-bs-parent="#faqAccordion">
-          <div class="accordion-body">
-            Para registrarte en nuestra plataforma, simplemente haz clic en el botón "Registrarse" en la esquina superior derecha de la página de inicio y sigue los pasos para crear una nueva cuenta.
+      <center>
+        <h2 class="mb-5 display-4 text-white">Preguntas Frecuentes</h2>
+        <p class="fs-4 text-white">
+          Aquí podrás resolver tus dudas acerca de nuestra plataforma. Nuestro objetivo es ofrecerte la mejor experiencia posible, por lo que hemos recopilado algunas de las preguntas más comunes para ayudarte a navegar y utilizar nuestros servicios de manera efectiva.
+        </p>
+      </center>
+      <div class="accordion" id="faqAccordion">
+  
+        <!-- Pregunta 1 -->
+        <div class="accordion-item mb-4 border rounded border-light">
+          <h2 class="accordion-header" id="faqHeadingOne">
+            <button class="accordion-button fs-4 bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
+              ¿Cómo puedo registrarme en la plataforma?
+            </button>
+          </h2>
+          <div id="faqCollapseOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne" data-bs-parent="#faqAccordion">
+            <div class="accordion-body fs-5 text-light bg-dark d-flex align-items-center">
+              <img src="imagenes/register.png" alt="Registrarse" class="img-fluid me-3" style="width: 60px; height: auto;">
+              <p style="margin: 0;">
+                Para registrarte en nuestra plataforma, simplemente haz clic en el botón "Registrarse" en la esquina superior derecha de la página de inicio y sigue los pasos para crear una nueva cuenta.
+              </p>
+            </div>
           </div>
         </div>
+  
+        <!-- Pregunta 2 -->
+        <div class="accordion-item mb-4 border rounded border-light">
+          <h2 class="accordion-header" id="faqHeadingTwo">
+            <button class="accordion-button collapsed fs-4 bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+              ¿Qué métodos de pago aceptan?
+            </button>
+          </h2>
+          <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#faqAccordion">
+            <div class="accordion-body fs-5 text-light bg-secondary d-flex align-items-center">
+              <img src="imagenes/metodo.png" alt="Métodos de Pago" class="img-fluid me-3" style="width: 60px; height: auto;">
+              <p style="margin: 0;">
+                Aceptamos varios métodos de pago, incluidos tarjetas de crédito y débito (Visa, MasterCard, American Express), PayPal, y transferencias bancarias.
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Pregunta 3 -->
+        <div class="accordion-item mb-4 border rounded border-light">
+          <h2 class="accordion-header" id="faqHeadingThree">
+            <button class="accordion-button collapsed fs-4 bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
+              ¿Cómo puedo recuperar mi contraseña?
+            </button>
+          </h2>
+          <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#faqAccordion">
+            <div class="accordion-body fs-5 text-light bg-dark d-flex align-items-center">
+              <img src="imagenes/contraseña.png" alt="Recuperar Contraseña" class="img-fluid me-3" style="width: 60px; height: auto;">
+              <p style="margin: 0;">
+                Si olvidaste tu contraseña, puedes recuperarla haciendo clic en "¿Olvidaste tu contraseña?" en la página de inicio de sesión y siguiendo las instrucciones para restablecerla.
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Pregunta 4 -->
+        <div class="accordion-item mb-4 border rounded border-light">
+          <h2 class="accordion-header" id="faqHeadingFour">
+            <button class="accordion-button collapsed fs-4 bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFour" aria-expanded="false" aria-controls="faqCollapseFour">
+              ¿Cómo puedo contactar al soporte técnico?
+            </button>
+          </h2>
+          <div id="faqCollapseFour" class="accordion-collapse collapse" aria-labelledby="faqHeadingFour" data-bs-parent="#faqAccordion">
+            <div class="accordion-body fs-5 text-light bg-secondary d-flex align-items-center">
+              <img src="/imagenes/soporte.webp" alt="Soporte Técnico" class="img-fluid me-3" style="width: 60px; height: auto;">
+              <p style="margin: 0;">
+                Puedes contactar al soporte técnico a través de nuestro formulario de contacto en la página "Soporte" o enviando un correo electrónico a soporte@plataforma.com. Nuestro equipo te asistirá lo antes posible.
+              </p>
+            </div>
+          </div>
+        </div>
+  
       </div>
-
-
+    </div>
   </section>
+  
+  
+  
+  
+  
+  
+
 
 
 
