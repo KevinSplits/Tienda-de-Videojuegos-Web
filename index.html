@@ -314,7 +314,7 @@
               </div>
               <!-- Body con fondo oscuro -->
               <div class="modal-body bg-dark text-white">
-                <form action="">
+                <form action="" id="modal-form">
                   <div class="mb-3">
                     <label class="form-label" for="name">Nombre:</label>
                     <!-- Input con fondo blanco y texto negro -->
@@ -334,6 +334,12 @@
                       placeholder="Ingresa tu correo">
                   </div>
                   <div class="mb-3">
+                    <label class="form-label" for="tel">Teléfono:</label>
+                    <!-- Input con fondo blanco y texto negro -->
+                    <input class="form-control bg-white text-dark rounded-3" type="tel" name="tel" id="tel"
+                      placeholder="Ingresa tu número telefónico">
+                  </div>
+                  <div class="mb-3">
                     <label class="form-label" for="description">Descripción:</label>
                     <!-- Textarea con fondo blanco y texto negro -->
                     <textarea class="form-control bg-white text-dark rounded-3" name="description" id="description"
@@ -344,19 +350,19 @@
                     <label class="form-label">Distrito:</label>
                     <select class="form-select bg-white text-dark rounded-3" aria-label="Default select example">
                       <option selected>Selecciona un distrito</option>
-                            <option value="1">San Isidro</option>
-                            <option value="2">Miraflores</option>
-                            <option value="3">Surco</option>
-                            <option value="4">Barranco</option>
-                            <option value="5">San Borja</option>
-                            <option value="6">La Molina</option>
-                            <option value="7">Pueblo Libre</option>
-                            <option value="8">San Miguel</option>
-                            <option value="9">Jesús María</option>
-                            <option value="10">Magdalena del Mar</option>
-                            <option value="11">Chorrillos</option>
-                            <option value="12">Rímac</option>
-                            <option value="13">Callao</option>
+                      <option value="1">San Isidro</option>
+                      <option value="2">Miraflores</option>
+                      <option value="3">Surco</option>
+                      <option value="4">Barranco</option>
+                      <option value="5">San Borja</option>
+                      <option value="6">La Molina</option>
+                      <option value="7">Pueblo Libre</option>
+                      <option value="8">San Miguel</option>
+                      <option value="9">Jesús María</option>
+                      <option value="10">Magdalena del Mar</option>
+                      <option value="11">Chorrillos</option>
+                      <option value="12">Rímac</option>
+                      <option value="13">Callao</option>
                     </select>
                   </div>
                   <div class="mb-3">
@@ -383,6 +389,7 @@
             </div>
           </div>
         </div>
+        
 
 
       </div>
